@@ -3,35 +3,32 @@ body {
   height: 100%;
   margin: 0;
 }
-figure, header, nav, p {
+header{
   text-align: center;
-
 }
-p{ text-align: center;
-  padding-left: 10%;
-  padding-top: 5px;
-} 
-nav a{ padding-left: 10px;
-padding-right: 10px;
-background-color: bisque;}
-
-figcaption{
-  font-size: small;
-  text-align: center;
-  padding-left: 10%;
+nav a{
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: green;
 }
 #featured-property{
-  width: 800px;
-  padding-top: 10px;
-  padding-bottom:10px ;
   text-align: center;
-  padding-left: 22%;
 }
-
-#details {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: blue;
+figcaption{
+  font-size: small;
 }
-
+#featured-property p{
+  padding-left: 25%;
+  padding-right: 25%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+#details{
+  text-align: center;
+ 
+}
+#details div{
+  float: left;
+  width: 25%;
+  background-color: green;
+}
