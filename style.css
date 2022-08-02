@@ -25,10 +25,10 @@ figcaption{
 }
 #details{
   text-align: center;
- 
 }
 #details div{
   float: left;
   width: 25%;
   background-color: green;
+  padding-bottom: 50px;
 }
